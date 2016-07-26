@@ -1,0 +1,10 @@
+images = Bim_build('ExtraData/faces/','jpg');        %  1: image files
+labels = Bds_labels([60 200]);                       %  2: supervision
+options.fx.b = {'lbp'};                              %  3: features
+options.fx.channels = {'gray','red','blue','green'}; %  4: channels
+options.fs = {'sfs-fisher','sfs-knn5','rank-roc'};   %  5: feature selection               
+options.cl = {'dmin','maha','lda','qda','svm1'};     %  6: classifiers
+[features,names] = Bfx_files(images,options.fx);     %  7: feature extraction
+options.Xn  = names;                                 %  8: feature names
+options.m   = 15;                                    %  9: number of features
+[cs,fs] = Bcl_balu(features,labels,options);         % 10: classifier selection

@@ -1,0 +1,35 @@
+COPYRIGHT FOR MATLAB TOOLBOX BALU
+*********************************
+
+Copyright 2007-2014 by the Pontificia Universidad Catolica de Chile 
+All rights reserved.
+   
+Developed by: Domingo Mery
+              dmery@ing.puc.cl
+              http://dmery.ing.puc.cl
+
+Permission to use, copy, or modify these programs and their
+documentation for educational and research purposes only and without
+fee is hereby granted, provided that this copyright notice appears on
+all copies and supporting documentation.  For any other uses of this
+software, in original or modified form, including but not limited to
+distribution in whole or in part, specific prior permission must be
+obtained from Catholic University.  These programs shall not be used,
+rewritten, or adapted as the basis of a commercial software or
+hardware product without first obtaining appropriate licenses from
+the Pontificia Universidad Catolica de Chile.  Pontificia Universidad 
+Catolica de Chile makes no representations about the suitability of 
+this software for any purpose.  It is provided "as is" without 
+express or implied warranty.
+
+NOTES:
+
+Certain Balu functions were improved with the help of collaborators (see credits in Collaboration.txt).
+
+Certain Balu functions use commands of the followings toolboxes: VLFeat, Image Processing, Bioinformatics, and Neural Netowrks. It is necessary to install these toolboxes if you want to use these Balu functions.
+
+Certain neural network functions were implemented based on NetLab Toolbox:  (c) 1996-2001, Ian T. Nabney, All rights reserved. Nabney, I.T. (2003): Netlab: Algorithms for Pattern Recognition, Advances in Pattern Recognition, Springer.
+
+Certain Local Binary Patterns functions were implemented based on code written by Heikkila & Ahonen (see http://www.cse.oulu.fi/MVG/Research/LBP) all rights reserved.
+
+Partial Least Squares Regression was implemented based on code developed by Gelady (see http://www.cdpcenter.org/files/plsr )

@@ -1,0 +1,23 @@
+Many improvements and codes were developed by:
+
+- Patricio Cordero
+- Esteban Cort‡zar
+- German Larrain
+- Gabriel Leiva
+- Daniel Maturana
+- Carlos Andres Mera
+- German Mondragon
+- Cristobal Moenne
+- Diego Pati–o
+- Christian Pieringer
+- Vladimir Riffo
+- Alvaro Soto
+- Gabriel Tejeda
+- Irene Zuccar
+
+I would like to thank all of them!
+
+If you want to collaborate please send me an e-mail with your code. I would include your name in this list and in the code you do as author or collaborator.
+
+Domingo
+

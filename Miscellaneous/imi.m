@@ -1,0 +1,2 @@
+close all
+imshow(I,[])
