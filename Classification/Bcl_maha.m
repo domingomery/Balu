@@ -41,7 +41,7 @@
 % http://dmery.ing.puc.cl
 
 function [ds,options] = Bcl_maha(varargin)
-[train,test,X,d,Xt,options] = Xconstruct(varargin{:});
+[train,test,X,d,Xt,options] = Bcl_construct(varargin{:});
 
 options.string = 'maha    ';
 if train
@@ -84,6 +84,6 @@ if test
         sc(q) = i;
     end
     ds = ds+options.dmin-1;
-    ds = Xoutscore(ds,sc,options);
+    ds = Bcl_outscore(ds,sc,options);
 end
 

@@ -42,7 +42,7 @@
 % http://dmery.ing.puc.cl
 
 function [ds,options] = Bcl_RandomForest(varargin)
-[train,test,X,d,Xt,options] = Xconstruct(varargin{:});
+[train,test,X,d,Xt,options] = Bcl_construct(varargin{:});
 
 options.string = 'RForest ';
 if train
