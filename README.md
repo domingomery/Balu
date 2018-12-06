@@ -42,9 +42,9 @@ NOTE: Certain functions of Balu call functions from the following toolboxes: VLF
 `Balu  :  All right. How's about layin' it out for me.`
 
 `-------------------------------------------------------`
-Please visit Balu's webpage:
-http://dmery.ing.puc.cl/index.php/balu/
---------------------------------------------------------
 
-I'd like to hear about any bugs that you find, or suggestions for 
-improvements.
+Please visit [Balu's webpage](http://dmery.ing.puc.cl/index.php/balu/).
+
+
+__I'd like to hear about any bugs that you find, or suggestions for 
+improvements.__
