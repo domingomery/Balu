@@ -4,7 +4,7 @@ e-mail: dmery@ing.puc.cl
 http://dmery.ing.puc.cl
 Departamento de Ciencia de la Computacion
 Pontificia Universidad Catolica de Chile
-(c) 2008-2014
+(c) 2008-2019
 
 Installation:
 
