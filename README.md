@@ -1,7 +1,7 @@
 # Balu
 General Toolbox for Image Proessing, Pattern Recogntion and Computer Vision
 
-Balu Toolbox Matlab version 4.1
+Balu Toolbox Matlab version 4.1 ([see wiki](https://github.com/domingomery/Balu/wiki))
 
 ![Logo](https://github.com/domingomery/Balu/blob/master/LogoBalu.png)
 
@@ -19,13 +19,7 @@ Pontificia Universidad Catolica de Chile
 
 (c) 2008-2019
 
-Installation:
-
-Once you have downloaded and unziped the distribution zip file:
-
-- Start Matlab
-- Change into the folder you unziped the files
-- Execute setup.m
+Installation in [five easy steps](https://github.com/domingomery/Balu/wiki/Installation).
 
 That's all! Balu doesn't need any compilation. The installation just add the Balu directories to search path of Matlab. 
 
