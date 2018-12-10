@@ -47,7 +47,7 @@ improvements.__
 Mery, D. (2011): BALU: A Matlab toolbox for computer vision, pattern recognition and image processing. 
 http://dmery.ing.puc.cl/index.php/balu
 
-`BIBTEX:`
+* BibTex:
 
 `@MISC{Mery2011Balu,`
 
