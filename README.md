@@ -37,8 +37,24 @@ NOTE: Certain functions of Balu call functions from the following toolboxes: VLF
 
 `-------------------------------------------------------`
 
-Please visit [Balu's webpage](http://dmery.ing.puc.cl/index.php/balu/).
+Please visit [Balu Wiki](http://dmery.ing.puc.cl/index.php/balu/).
 
 
 __I'd like to hear about any bugs that you find, or suggestions for 
 improvements.__
+
+## Citation
+Mery, D. (2011): BALU: A Matlab toolbox for computer vision, pattern recognition and image processing. 
+http://dmery.ing.puc.cl/index.php/balu
+
+`BIBTEX:`
+
+`@MISC{Mery2011Balu,`
+
+`author = {Domingo Mery},`
+
+`title = {{BALU}: A {Matlab} toolbox for computer vision, pattern recognition and image processing
+(http://dmery.ing.puc.cl/index.php/balu)},`
+
+`year = {2011}}`
+
