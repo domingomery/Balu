@@ -44,6 +44,9 @@ __I'd like to hear about any bugs that you find, or suggestions for
 improvements.__
 
 ## Citation
+
+* APA
+
 Mery, D. (2011): BALU: A Matlab toolbox for computer vision, pattern recognition and image processing. 
 http://dmery.ing.puc.cl/index.php/balu
 
