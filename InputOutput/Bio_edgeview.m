@@ -8,11 +8,12 @@
 %   Variable g is the number of pixels of the edge lines, default g = 1
 %
 % Example to display a red edge of a food: 
-%    I = imread('testimg2.jpg');   % Input image
-%    [R,E] = Bsegbalu(I);          % Segmentation
-%    Bedgeview(I,E)
+%    I = imread('testimg2.jpg');           % Input image
+%    [R,E] = Bim_segbalu(I);               % Segmentation
+%    Bio_edgeview(I,bwperim(E),[0 1 0],3)  % perimeter will be displayed in
+%                                          % green ([0 1 0] for [R G B])
 %
-% D.Mery, PUC-DCC, Apr. 2008
+% D.Mery, PUC-DCC, Apr. 2008-2019
 % http://dmery.ing.puc.cl
 %
 
