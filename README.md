@@ -9,7 +9,7 @@ Balu Toolbox Matlab version 4.1 ([see wiki](https://github.com/domingomery/Balu/
 
 Domingo Mery
 
-e-mail: dmery@ing.puc.cl
+e-mail: domingo.mery@uc.cl
 
 http://dmery.ing.puc.cl
 
