@@ -7,7 +7,7 @@
 % http://dmery.ing.puc.cl
 
 
-clear all
+clearvars
 clb
 disp('All windows closed & all variables deleted.')
 drawnow
