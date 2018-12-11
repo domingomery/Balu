@@ -10,8 +10,8 @@
 % Example to display a red edge of a food: 
 %    I = imread('testimg1.jpg');           % Input image
 %    [R,E] = Bim_segbalu(I);               % Segmentation
-%    Bio_edgeview(I,bwperim(E),[0 1 0],3)  % perimeter will be displayed in
-%                                          % green ([0 1 0] for [R G B])
+%    Bio_edgeview(I,bwperim(E),[0 1 0],3)  % perimeter with 3 pixels will be
+%                                          % displayed ingreen ([0 1 0] for [R G B])
 %
 % D.Mery, PUC-DCC, Apr. 2008-2019
 % http://dmery.ing.puc.cl
