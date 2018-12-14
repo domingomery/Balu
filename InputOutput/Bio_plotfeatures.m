@@ -69,8 +69,8 @@ r = sprintf('%s',39);
 warning on
 s = 'legend(';
 for k = dmin:dmax
-%    s = [s r sprintf('class %d',k) r ];
-    s = [s r sprintf('class %d',k-1) r ];
+    s = [s r sprintf('class %d',k) r ];
+%    s = [s r sprintf('class %d',k-1) r ];
     if k<dmax
         s = [s ','];
     else
