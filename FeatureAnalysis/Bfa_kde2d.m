@@ -3,7 +3,6 @@
 %    It can also be downloaded from www.mathwork.com
 %    (c) Zdravko Botev. All rights reserved.
 %
-function [bandwidth,density,X,Y]=Bfa_kde2d(data,n,MIN_XY,MAX_XY)
 % fast and accurate state-of-the-art
 % bivariate kernel density estimator
 % with diagonal bandwidth matrix.
@@ -81,6 +80,8 @@ function [bandwidth,density,X,Y]=Bfa_kde2d(data,n,MIN_XY,MAX_XY)
 %  Reference: Z. I. Botev, J. F. Grotowski and D. P. Kroese
 %             "KERNEL DENSITY ESTIMATION VIA DIFFUSION" ,Submitted to the
 %             Annals of Statistics, 2009
+function [bandwidth,density,X,Y]=Bfa_kde2d(data,n,MIN_XY,MAX_XY)
+
 global N A2 I
 if nargin<2
     n=2^8;

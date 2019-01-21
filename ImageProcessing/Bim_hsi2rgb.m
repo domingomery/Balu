@@ -51,3 +51,5 @@ RGB = zeros(size(HSI));
 RGB(:,:,1) = r;
 RGB(:,:,2) = g;
 RGB(:,:,3) = b;
+
+RGB = uint8(RGB);

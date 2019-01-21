@@ -85,7 +85,7 @@ for i=1:k
             K(:,:,3) = kb;
             figure(2)
             imshow(uint8(K))
-            title(sprintf('Cluster %d',k))
+            title(sprintf('Cluster %d/%d',i,k))
             enterpause
         end
     end
