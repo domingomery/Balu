@@ -31,6 +31,15 @@ if ~exist('show','var')
     show = 0;
 end
 
+
+if isempty(Ra)
+    Ra = ones(size(Ia));
+end
+if isempty(Rb)
+    Rb = ones(size(Ib));
+end
+
+
 if show
     figure(4)
     clf
