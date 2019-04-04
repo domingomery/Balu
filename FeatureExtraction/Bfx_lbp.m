@@ -422,7 +422,11 @@ function result = lbp(varargin) % image,radius,neighbors,mapping,mode)
 % of sampling points. Lauge Sorensen is acknowledged for spotting this problem.
 
 % Check number of input arguments.
-error(nargchk(1,5,nargin));
+narginchk(1,5);
+
+% error(nargchk(1,5,nargin)); % for previous versions of matlab
+
+
 
 image=varargin{1};
 d_image=double(image);
