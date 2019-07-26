@@ -8,7 +8,7 @@ for ni=1:n
     dd = d.*d;
     e = sum(dd,2);
     
-    [a b] = sort(e);
+    [~,b] = sort(e);
     v = b(2:k+1);
     for nj=1:k
         G(ni,v(nj)) = true;

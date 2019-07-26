@@ -36,7 +36,7 @@ t = max([xa(:);xb(:)])/20;
 if n>=np
 
     our = Inf;
-    for k=1:500
+    for k=1:15000
         qq = rand(n,1);
         [ii,jj] = sort(qq); %#ok<ASGLU>
         j = jj(1:np);
