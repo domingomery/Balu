@@ -69,7 +69,7 @@ if show
     fprintf('Bsq_vocabul: Vector Quantization with %d clusters...\n',V)
 end
 X  = single(kp.des);
-Xcen = (vl_kmeans(X',V,'Algorithm','Elkan'))';
+Xcen = (vl_kmeans(X',V,'Algorithm','ANN'))';
 Xcen_old = Xcen;
 if show
     disp('Bsq_vocabul: building kd-tree...')
