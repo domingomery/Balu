@@ -31,7 +31,7 @@
 % (c) D.Mery, PUC-DCC, 2010
 % http://dmery.ing.puc.cl
 
-function J = Bmv_projective2D(I,H,SJ,show)
+function [J,R] = Bmv_projective2D(I,H,SJ,show)
 
 I = double(I);
 
@@ -58,6 +58,7 @@ end
 
 
 J = mean(I(:))*ones(NJ,MJ);
+R = zeros(NJ,MJ);
 
 X = (1:NJ)'*ones(1,MJ);
 Y = ones(NJ,1)*(1:MJ);
@@ -82,6 +83,7 @@ i  = xp + (yp-1)*NI;
 j  = x  + (y-1)*NJ;
 
 J(j) = I(i);
+R(j) = 1;
 
 if (show)
     figure(2)
